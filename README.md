@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/readme-logo.png" alt="Controle de Gastos Residenciais" width="180" />
+</p>
+
 # Controle de Gastos Residenciais
 
 Sistema full stack com backend em .NET 8, frontend em React + TypeScript e persistência em SQLite.
