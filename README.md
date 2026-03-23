@@ -48,7 +48,6 @@ O projeto entrega:
 ```text
 ControleGastosResidenciais.sln
 README.md
-index.txt
 docker-compose.yml
 
 backend/

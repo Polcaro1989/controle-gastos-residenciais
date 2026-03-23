@@ -1121,7 +1121,7 @@ export default function App() {
             <h2 className="font-display text-[2.2rem] leading-tight text-slate-950">Relatórios</h2>
           </div>
 
-          <div className="mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-6 grid gap-3 md:grid-cols-3">
             <InsightCard
               detail="Tudo que entrou no sistema."
               label="Receitas"
@@ -1135,14 +1135,8 @@ export default function App() {
               value={formatCurrency(overallTotals.totalExpense)}
             />
             <InsightCard
-              detail="Resultado líquido consolidado."
+              detail="Resultado líquido consolidado (receitas – despesas)."
               label="Saldo"
-              tone="slate"
-              value={formatCurrency(overallTotals.balance)}
-            />
-            <InsightCard
-              detail="Visão principal do consolidado."
-              label="Saldo líquido"
               tone="slate"
               value={formatCurrency(overallTotals.balance)}
             />
